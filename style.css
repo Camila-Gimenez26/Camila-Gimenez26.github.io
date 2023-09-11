@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Montserrat', 'sans-sefif';
-    background: #f6f5f7 ;
+    background: #b4aabe ;
     color: #3E363F;
 }
 
@@ -19,7 +19,7 @@ body{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25),
     0 10px 10px rgba(0,0,0,0.22)
 }
-#Calculadora{
+#calculadora{
     background: white;
     /* Con estas 3 lineas vamos a hacer que la calculadora quede lado a lado*/
     width: 50%;
@@ -64,6 +64,7 @@ button{
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: transform 20ms ease-in;
+    /*efecto del boton*/
 }
 
 button:active{
